@@ -12,7 +12,7 @@ A Python-based interactive application that detects fraudulent credit card trans
 
 ## 🛠️ Installation
 
-```bash
+````bash
 git clone https://github.com/Vashu252003/Fraud-Detection-Using-Machin-Learning.git
 cd Fraud-Detection-Using-Machin-Learning
 
@@ -33,7 +33,8 @@ Visualize feature distributions
 Compare model performance
 
 Manual fraud prediction
-📦 Dependencies
+
+
 pandas
 
 numpy
@@ -45,14 +46,12 @@ seaborn
 scikit-learn
 
 streamlit
+## 🚀 Usage
 
-🌍 Use Cases
-Bank fraud detection
-
-Transaction monitoring
-
-Financial anomaly detection
+### Start the Streamlit App
+```bash
+streamlit run app.py
 
 📜 License
 MIT License
-```
+````
