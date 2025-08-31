@@ -1,80 +1,74 @@
-🏦 Bank Card Fraud Detection Using Machine Learning
+extend this only and add in this
+
+# 🏦 Bank Card Fraud Detection Using Machine Learning
+
 A Python-based interactive application that detects fraudulent credit card transactions. The project uses Logistic Regression, Naive Bayes, and Decision Tree classifiers and provides an interactive Streamlit interface for visualization and manual transaction verification.
 
-✨ Key Features
-Exploratory Data Analysis (EDA)
-Understand the dataset and check for missing or duplicate values.
+## ✨ Key Features
 
-Univariate, bivariate, and multivariate analysis of features.
+### Exploratory Data Analysis (EDA)
 
-Data Preprocessing
-Feature scaling using StandardScaler.
+- Understand the dataset and check for missing or duplicate values.
+- Univariate, bivariate, and multivariate analysis of features.
 
-Skewness mitigation with PowerTransformer.
+### Data Preprocessing
 
-Handling imbalanced datasets using undersampling techniques.
+- Feature scaling using StandardScaler.
+- Skewness mitigation with PowerTransformer.
+- Handling imbalanced datasets using undersampling techniques.
 
-Machine Learning Models
-Logistic Regression
+### Machine Learning Models
 
-Naive Bayes
+- Logistic Regression
+- Naive Bayes
+- Decision Tree
+- Model comparison with accuracy, recall, precision, F1-score, and AUC.
 
-Decision Tree
+### Interactive Streamlit Dashboard
 
-Model comparison with accuracy, recall, precision, F1-score, and AUC.
+- Visualize dataset statistics and distributions.
+- Compare model performance with ROC curves and confusion matrices.
+- Manual transaction verification: predict if a transaction is legitimate or fraudulent.
 
-Interactive Streamlit Dashboard
-Visualize dataset statistics and distributions.
+## 🛠️ Installation
 
-Compare model performance with ROC curves and confusion matrices.
+### 1. Clone the Repository
 
-Manual transaction verification: predict if a transaction is legitimate or fraudulent.
+```bash
+git clone https://github.com/Vashu252003/Fraud-Detection-Using-Machin-Learning.git
+cd Fraud-Detection-Using-Machin-Learning
+```
 
-🛠️ Installation
-
-1. Clone the Repository
-   git clone [https://github.com/Vashu252003/Fraud-Detection-Using-Machin-Learning.git](https://github.com/Vashu252003/Fraud-Detection-Using-Machin-Learning.git)
-   cd Fraud-Detection-Using-Machin-Learning
-
-2. (Optional) Create a Virtual Environment
-   ⚠️ Note: This is highly recommended to avoid dependency conflicts.
+### 2. Create Virtual Environment
 
 Windows:
 
-python -m venv .venv
-.\.venv\Scripts\activate
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
 
-macOS / Linux:
+macOS/Linux:
 
-python3 -m venv .venv
-source .venv/bin/activate
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
 
-3. Install Dependencies
-   pip install -r requirements.txt
+### 3. Install Dependencies
 
-🚀 Usage
-Start the Streamlit App
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Application
+
+```bash
 streamlit run app.py
+```
 
-Use Sidebar Options
-Show the initial dataset: View dataset shape, description, missing values, and duplicates.
+## 📦 Requirements
 
-Show the analysis: Visualize univariate, bivariate, and multivariate relationships.
-
-Model building on imbalanced data: Train and preprocess the dataset.
-
-Compare algorithms: Train and evaluate Logistic Regression, Naive Bayes, and Decision Tree classifiers.
-
-Manual transaction verification: Input features to predict if a transaction is fraudulent.
-
-📊 Example Outputs
-Confusion matrices and ROC curves for each model.
-
-Comparative bar chart showing model accuracy.
-
-Interactive feature visualization and manual transaction prediction.
-
-📦 Requirements
 pandas
 
 numpy
@@ -87,12 +81,14 @@ scikit-learn
 
 streamlit
 
-🌍 Use Cases
+## 🌍 Use Cases
+
 Bank fraud detection
 
 Transaction monitoring
 
 Financial anomaly detection
 
-📜 License
+## 📜 License
+
 This project is licensed under the MIT License.
